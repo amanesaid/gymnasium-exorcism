@@ -13,11 +13,6 @@
 	padding:2rem 0;
 }
 
-body {
-	font-family:'Cormorant',serif;
-	font-size: 1.15rem;
-} 
-
 #title {
 	color:white;
 	font-weight:700;
@@ -48,7 +43,13 @@ body {
 	padding:.50rem 1.5rem;
 }
 
+body {
+	font-family:'Cormorant',serif;
+	font-size: 1.15rem;
+} 
+
 main {
+	box-shadow: inset 0 0.25rem 0.75rem 0 rgba(0,0,0,0.5);
 	background-color: #EDEDED;
 	padding:1.5rem 0 10rem 0;
 }
@@ -98,6 +99,10 @@ footer {
 figure {
 	float:right;
 	margin:0 0 0 1rem;
+}
+
+figure > img {
+	box-shadow: 0 0.25rem 0.75rem rgba(0,0,0,0.5);
 }
 
 #figure_intro {
